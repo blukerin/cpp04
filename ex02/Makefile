@@ -1,12 +1,16 @@
 # Nombre del ejecutable final
-NAME        = megaphone
+NAME        = Animal
 
 # Archivos fuente del proyecto
-SRCS        = megaphone.cpp \
+SRCS        =	src/main.cpp \
+				src/AAnimal.cpp \
+				src/Brain.cpp \
+				src/Cat.cpp \
+				src/Dog.cpp
               # ClassName.cpp
               
 # Módulo de C++ actual
-MODULE      = 0
+MODULE      = 4
 
 # CONFIGURACIÓN DEL COMPILADOR Y FLAGS
 
@@ -16,8 +20,6 @@ RM          = rm -rf
 
 # Generación automática de nombres de archivos objeto (.o)
 OBJS        = $(SRCS:.cpp=.o)
-
-# REGLAS DE COMPILACIÓN (No tocar)
 
 # Regla por defecto
 all: $(NAME)
