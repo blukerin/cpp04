@@ -1,12 +1,17 @@
 # Nombre del ejecutable final
-NAME        = megaphone
+NAME        = Animal
 
 # Archivos fuente del proyecto
-SRCS        = megaphone.cpp \
+SRCS        =	src/main.cpp \
+				src/Animal.cpp \
+				src/WrongAnimal.cpp \
+				src/Cat.cpp \
+				src/WrongCat.cpp \
+				src/Dog.cpp
               # ClassName.cpp
               
 # Módulo de C++ actual
-MODULE      = 0
+MODULE      = 4
 
 # CONFIGURACIÓN DEL COMPILADOR Y FLAGS
 
